@@ -85,11 +85,11 @@ class Book
 
 end
 
-newbook=Book.create("guuci gang", "lil pump", "420b")
+newbook=Book.create("Sister Outsider", "Audre Lorde", "9781515905431")
 p newbook
-newbook2=Book.create("guuci gang2", "lil pump2", "420b2")
+newbook2=Book.create("Ain't I a Woman", "Bell Hooks", "9780896081307")
 p newbook2
-newbook3=Book.create("guuci gang3", "lil pump3", "420b3")
+newbook3=Book.create("If They Come in the Morning", "Angela Y. Davis", "0893880221")
 p newbook3
 puts
 
