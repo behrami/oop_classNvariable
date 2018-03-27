@@ -13,7 +13,6 @@ class BankAccount
 
   def balance=(balance)
     @balance=balance
-
   end
 
   def deposit(amount)
@@ -40,7 +39,6 @@ class BankAccount
 
   def self.interest_time
     @@accounts.each do |accOBJ|
-      p accOBJ
       accOBJ.balance += (accOBJ.balance*@@interest_rate/100)
     end
   end
@@ -58,3 +56,4 @@ p seanACC
 
 p BankAccount.total_funds
 p BankAccount.interest_time
+p BankAccount.total_funds
